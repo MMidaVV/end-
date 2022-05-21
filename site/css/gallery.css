@@ -1,0 +1,104 @@
+.section {
+	display: inline-flex;
+	font-family: 'Rubik', sans-serif;
+	font-size: 200%;
+	padding: 2%;
+}
+.section img{
+	height: 40px;
+}
+body {
+	background-color: #D7D7D7;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.head {
+	width: 100%;
+	min-height: 60px;
+	background-color: white;
+	border: 1px solid black;
+	border-right: 0;
+	border-left: 0;
+}
+.icon {
+	display: inline-flex;
+	width: 3%;
+	min-width: 40px;
+	margin: 0.1%;
+}
+.icon img {
+	width: 85%;
+}
+.communication {
+	width: 100%;
+	height: 15%;
+	min-height: 35px;
+}
+.section_mountains {
+	display: inline-flex;
+}
+.right {
+	float: right;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+  color: blue;
+}
+.content {
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-top: 4%;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registration {
+	display: inline-flex;
+	font-size: 100%;
+	padding-right: 1%;
+	padding-top: 0.9%;
+}
+.arrow {
+	padding: 1%;
+}
+.arrow img {
+	height: 70px;
+	width: 30px;
+}
+#mainImage {
+	width: 500px;
+}
+#rigtImage {
+	width: 250px;
+}
+#leftImage {
+	width: 250px;
+}
+.me {
+	height: 650px;
+	display: inline-flex;
+}
+.leftMe {
+	height: 300px;
+	display: inline-flex;
+}
+.rightMe {
+	height: 300px;
+	display: inline-flex;
+}
+.guidance img{
+	height: 90px;
+	width: 50px;
+}
+.noguidance img{
+	height: 70px;
+	width: 30px;
+}
