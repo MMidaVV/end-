@@ -1,0 +1,135 @@
+.section {
+	display: inline-flex;
+	font-family: 'Rubik', sans-serif;
+	font-size: 200%;
+	padding: 2%;
+}
+.section img{
+	height: 40px;
+}
+body {
+	background-color: #D7D7D7;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.head {
+	width: 100%;
+	height: 100%;
+	min-height: 60px;
+	background-color: white;
+	border: 1px solid black;
+	border-right: 0;
+	border-left: 0;
+}
+.icon {
+	display: inline-flex;
+	width: 3%;
+	min-width: 40px;
+	margin: 0.1%;
+}
+.icon img {
+	width: 85%;
+}
+.communication {
+	width: 100%;
+	height: 15%;
+	min-height: 35px;
+}
+.section_mountains {
+	display: inline-flex;
+}
+.right {
+	float: right;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+  color: blue;
+}
+.registration {
+	display: inline-flex;
+	font-size: 100%;
+	padding-right: 1%;
+	padding-top: 0.9%;
+}
+.content {
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	height: 100%;
+	margin-top: 4%;
+	background-color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.parts {
+	width: 100%;
+}
+.part1 {
+	margin: 0;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 200%;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.part2 {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.part3 {
+	width: 30%;
+	margin-right: 35%;
+	margin-left: 35%;
+}
+.border {
+	width: 68.4%;
+  height: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15.8%;
+	margin-right: 15.8%;
+	border-radius: 5px;
+  text-align: center;
+}
+.link {
+	width: 100%;
+	text-align: center;
+}
+.error-border {
+	border: 2px solid red;
+	width: 68.4%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15.8%;
+	margin-right: 15.8%; 
+}
+.success-border{
+	border: 2px solid greenyellow;
+	width: 68.4%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15.8%;
+	margin-right: 15.8%; 
+}
+.t1-error, .t2-error, .t3-error{
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	color: red;
+}
+

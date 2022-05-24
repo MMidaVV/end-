@@ -1,0 +1,79 @@
+.section {
+	display: inline-flex;
+	font-family: 'Rubik', sans-serif;
+	font-size: 200%;
+	padding: 2%;
+}
+.section img{
+	height: 40px;
+}
+body {
+	background-color: #D7D7D7;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.head {
+	width: 100%;
+	height: 100%;
+	min-height: 60px;
+	background-color: white;
+	border: 1px solid black;
+	border-right: 0;
+	border-left: 0;
+}
+.icon {
+	display: inline-flex;
+	width: 3%;
+	min-width: 40px;
+	margin: 0.1%;
+}
+.icon img {
+	width: 85%;
+}
+.communication {
+	width: 100%;
+	height: 15%;
+	min-height: 35px;
+}
+.section_mountains {
+	display: inline-flex;
+}
+.right {
+	float: right;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+  color: blue;
+}
+.content {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	height: 450px;
+	margin-top: 4%;
+	background-color: white;
+}
+.info1 {
+	font-size: 200%;
+	margin: 0;
+	text-align: center;
+}
+.info2 {
+	font-size: 200%;
+	margin: 2%;
+	margin-top: 1%;
+}
+.registration {
+	display: inline-flex;
+	font-size: 100%;
+	padding-right: 1%;
+	padding-top: 0.9%;
+}
